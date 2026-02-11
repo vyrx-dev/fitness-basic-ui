@@ -1,6 +1,6 @@
 {
-    "name": "fitness-basic-ui",
-    "short_name": "fitness-basic-ui",
+    "name": "fitness",
+    "short_name": "fitness",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

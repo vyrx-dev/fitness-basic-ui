@@ -1,6 +1,6 @@
-import 'package:fitness_basic_ui/models/category_model.dart';
-import 'package:fitness_basic_ui/models/diet_model.dart';
-import 'package:fitness_basic_ui/models/popular_model.dart';
+import 'package:fitness/models/category_model.dart';
+import 'package:fitness/models/diet_model.dart';
+import 'package:fitness/models/popular_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
