@@ -1,16 +1,42 @@
-# fitness
+# Fitness Basic UI
 
-A new Flutter project.
+A Flutter fitness and nutrition app UI template. **Note: This is just a basic UI implementation** - it demonstrates the visual design and layout but does not include backend functionality, API integrations, or data persistence.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Build
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter build apk        # Android
+flutter build ios        # iOS
+flutter build web        # Web
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```
+lib/
+├── main.dart              # App entry point
+├── pages/
+│   └── home.dart          # Main home screen
+└── models/
+    ├── category_model.dart    # Category data model
+    ├── diet_model.dart        # Diet recommendation model
+    └── popular_model.dart     # Popular diets model
+```
+
+## Assets
+
+- Icons: `assets/icons/` (SVG format)
+- Fonts: `fonts/` (Poppins family)
+
+## Dependencies
+
+- `flutter_svg: ^2.2.3` - SVG image support
+- `cupertino_icons: ^1.0.8` - iOS style icons
