@@ -2,6 +2,7 @@
 
 A Flutter fitness and nutrition app UI template. **Note: This is just a basic UI implementation** - it demonstrates the visual design and layout but does not include backend functionality, API integrations, or data persistence.
 
+https://github.com/user-attachments/assets/aff47c85-5dd6-47e4-a812-cfe5f83c667f
 
 ## Getting Started
 
